@@ -1,8 +1,6 @@
 .main-container{
     position: relative;
     width: 100%;
-    background-position: center 0;
-    background-repeat: no-repeat;
     
 }
 
@@ -20,17 +18,17 @@
     
 }
 
-.userPhoto img{
+.userPhoto img {
     position: relative;
+    
     top: 320px;
     height: 330px;
+    width: 280px;
+    left: 00px;
+    background-color:greenyellow;
 }
 
 .submissions{
     position: relative;
     top: 520px;
-}
-
-input{
-    font-family: 'Roboto Condensed', sans-serif;
 }

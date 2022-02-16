@@ -1,6 +1,7 @@
 import { React, useState } from "react";
-import PHOTO from "../../img/yeps.png";
-import USERPIC from "../../img/ye.jpeg";
+import PHOTO from "../../img/ye.png";
+import OG from "../../img/ye.jpeg";
+
 import "../main/main.css";
 
 function Main() {
@@ -16,15 +17,16 @@ function Main() {
       <div className="pic-container">
         <div className="ye-main">
           <img src={PHOTO} alt="ye" />
+          
         </div>
         <div className="userPhoto">
           <img src={picture && picture} alt="" />
         </div>
       </div>
-
       <div className="submissions">
         <input type="file" onChange={onChangePicture} />
         <br/><br/>
+        <button onClick>Custom text</button>
       </div>
       
     </div>
