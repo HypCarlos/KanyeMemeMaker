@@ -1,6 +1,25 @@
+.pic-container{
+    position: relative;
+}
+
+
 .text-box {
     position: absolute;
-    top: 900px;
-    left: 600px;
-    height: 40px;
+    top: 820px;
+    left: 0;
+    right: 0;
+    height: 60px;
 }
+
+.present-text h3{
+    position: absolute;
+    top: 400px;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    opacity: 65%;
+    font-family: 'Permanent Marker', cursive;
+    z-index: 1;
+    max-width: 210px;
+}
+

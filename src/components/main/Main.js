@@ -26,7 +26,7 @@ function Main() {
       <div className="submissions">
         <input type="file" onChange={onChangePicture} />
         <br/><br/>
-        <button onClick>Custom text</button>
+        <button onClick>Add Custom text</button>
       </div>
       
     </div>
