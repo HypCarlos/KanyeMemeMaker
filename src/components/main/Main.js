@@ -3,6 +3,7 @@ import PHOTO from "../../img/ye.png";
 import OG from "../../img/ye.jpeg";
 
 import "../main/main.css";
+import { Link } from "react-router-dom";
 
 function Main() {
   const [picture, setPicture] = useState(null);
@@ -26,7 +27,9 @@ function Main() {
       <div className="submissions">
         <input type="file" onChange={onChangePicture} />
         <br/><br/>
-        <button onClick>Add Custom text</button>
+        <Link to= {`/custom`}>
+        <button  >Add Custom text</button>
+        </Link>
       </div>
       
     </div>

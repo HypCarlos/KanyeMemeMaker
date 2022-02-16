@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "../customText/customText.css";
 import PHOTO from "../../img/ye.jpeg";
+import { Link } from "react-router-dom";
 
 
 function CustomText() {
@@ -30,7 +31,9 @@ const [show, setBool] = useState(false);
           <button onClick= {showInput} >Submit</button>
           <br />
           <br />
+          <Link to= {`/`}>
           <button>Insert Picture</button>
+          </Link>
         </div>
         <div className="present-text">
             <h3>{show ? input : null}</h3>
