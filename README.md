@@ -1,3 +1,7 @@
+![Screen Shot 2022-02-16 at 3 45 04 PM](https://user-images.githubusercontent.com/66544442/154353942-c8164895-bda7-4545-9acd-903bf498831a.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -13,7 +17,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 
-![Screen Shot 2022-02-16 at 3 45 04 PM](https://user-images.githubusercontent.com/66544442/154353942-c8164895-bda7-4545-9acd-903bf498831a.png)
+
 
 You may also see any lint errors in the console.
 
