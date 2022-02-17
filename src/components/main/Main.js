@@ -14,11 +14,10 @@ function Main() {
 
   return (
     <div className="main-container">
-      <h1>FATHERHOLDMYNOTEPAD.COM</h1>
+      <h1 id= "title">FATHERHOLDMYNOTEPAD.COM</h1>
       <div className="pic-container">
         <div className="ye-main">
           <img src={PHOTO} alt="ye" />
-          
         </div>
         <div className="userPhoto">
           <img src={picture && picture} alt="" />
@@ -26,15 +25,15 @@ function Main() {
       </div>
       <div className="submissions">
         <input type="file" onChange={onChangePicture} />
-        <br/><br/> <br />
-          <br />
-          <br />
-        <Link to= {`/custom`}>
-        <div class="button_slide slide_left">ADD CUSTOM TEXT</div>
-        {/* <button  >Add Custom text</button> */}
+        <br />
+        <br /> <br />
+        <br />
+        <br />
+        <Link to={`/custom`}>
+          <div class="button_slide slide_left">ADD CUSTOM TEXT</div>
+          {/* <button  >Add Custom text</button> */}
         </Link>
       </div>
-      
     </div>
   );
 }

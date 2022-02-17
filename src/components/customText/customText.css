@@ -66,4 +66,16 @@
     width: 200px;
     
   }
+  
+  .text-box {
+    padding-top: 20px;
+    left: 190px;
+  }
+
+  #title{
+    
+    margin-left: 8rem;
+    
+  }
+  
 }
