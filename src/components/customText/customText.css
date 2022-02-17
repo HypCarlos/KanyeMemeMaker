@@ -59,7 +59,7 @@
     font-size: 14px;
     letter-spacing: 1px;
 }
-
+/* 
 @media (max-width: 600px) {
   .present-text h3 {
     left: 220px;
@@ -72,10 +72,10 @@
     left: 190px;
   }
 
-  /* #title{
+  #title{
     
     margin-left: 7rem;
     
-  } */
+  }
   
-}
+} */

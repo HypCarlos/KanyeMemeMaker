@@ -36,7 +36,7 @@ function CustomText() {
           <br />
           <br />
           <br />
-          <br />
+          
           <Link to={`/`}>
             <div class="button_slide slide_left">UPLOAD IMAGE</div>
             {/* <button>Insert Picture</button> */}
