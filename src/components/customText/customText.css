@@ -59,3 +59,11 @@
     font-size: 14px;
     letter-spacing: 1px;
 }
+
+@media (max-width: 600px) {
+  .present-text h3 {
+    left: 220px;
+    width: 200px;
+    
+  }
+}
