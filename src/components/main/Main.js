@@ -26,9 +26,12 @@ function Main() {
       </div>
       <div className="submissions">
         <input type="file" onChange={onChangePicture} />
-        <br/><br/>
+        <br/><br/> <br />
+          <br />
+          <br />
         <Link to= {`/custom`}>
-        <button  >Add Custom text</button>
+        <div class="button_slide slide_left">ADD CUSTOM TEXT</div>
+        {/* <button  >Add Custom text</button> */}
         </Link>
       </div>
       

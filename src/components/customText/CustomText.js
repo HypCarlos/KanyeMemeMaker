@@ -25,14 +25,20 @@ const [show, setBool] = useState(false);
           <img src={PHOTO} alt="ye" />
         </div>
         <div className="text-box">
-          <label for="message">Enter text:</label>
+          <h2 id = "enter">Enter text:</h2>
           <br />
           <input onChange = {getInput} type="text" id="message" name="message" />
-          <button onClick= {showInput} >Submit</button>
+          <br />
+          <br />
+          <div class="button_slide slide_right" onClick={showInput}>SUBMIT </div>
+          {/* <button id = "submit-btn"onClick= {showInput} >Submit</button> */}
+          <br />
+          <br />
           <br />
           <br />
           <Link to= {`/`}>
-          <button>Insert Picture</button>
+          <div class="button_slide slide_left">UPLOAD IMAGE</div>
+          {/* <button>Insert Picture</button> */}
           </Link>
         </div>
         <div className="present-text">
