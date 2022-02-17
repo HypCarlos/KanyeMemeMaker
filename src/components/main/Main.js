@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import PHOTO from "../../img/ye.png";
-import OG from "../../img/ye.jpeg";
+
 
 import "../main/main.css";
 import { Link } from "react-router-dom";
@@ -28,7 +28,7 @@ function Main() {
         <br />
         <br /> <br />
         <br />
-        <br />
+        
         <Link to={`/custom`}>
           <div class="button_slide slide_left">ADD CUSTOM TEXT</div>
           {/* <button  >Add Custom text</button> */}
