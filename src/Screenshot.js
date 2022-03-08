@@ -38,14 +38,14 @@ export default class ScreenCapture extends Component {
     return (
       <div>
         {children}
-        <button 
+        {/* <button 
           id="dl"
           className="button_slide slide_down"
           onClick={this.handleClickTakeScreenShot}
         >
           <img src="https://img.icons8.com/material-outlined/24/000000/download--v2.png" alt="dl"/>
           
-        </button>
+        </button> */}
         
         <div id="#screenshot" ref={this.ref}>
           <CustomImage />
