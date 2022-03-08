@@ -22,29 +22,29 @@ function CustomText() {
       <div className="pic-container">
         <div className="ye-main">
           <img src={PHOTO} alt="ye" />
-        </div>
-        <div className="text-box">
-          <h2 id="enter">Enter text:</h2>
-          <br />
-          <input onChange={getInput} type="text" id="message" name="message" />
-          <br />
-          <br />
-          <div class="button_slide slide_right" onClick={showInput}>
-            SUBMIT{" "}
+          <div className="present-text">
+            <h3>{show ? input : null}</h3>
           </div>
-          {/* <button id = "submit-btn"onClick= {showInput} >Submit</button> */}
-          <br />
-          <br />
-          <br />
-          
-          <Link to={`/`}>
-            <div class="button_slide slide_left">UPLOAD IMAGE</div>
-            {/* <button>Insert Picture</button> */}
-          </Link>
         </div>
-        <div className="present-text">
-          <h3>{show ? input : null}</h3>
+      </div>
+      <div className="text-box">
+        <h2 id="enter">Enter text:</h2>
+        <br />
+        <input onChange={getInput} type="text" id="message" name="message" />
+        <br />
+        <br />
+        <div className="button_slide slide_right" onClick={showInput}>
+          SUBMIT{" "}
         </div>
+        {/* <button id = "submit-btn"onClick= {showInput} >Submit</button> */}
+        <br />
+        <br />
+        <br />
+
+        <Link to={`/`}>
+          <div className="button_slide slide_left">UPLOAD IMAGE</div>
+          {/* <button>Insert Picture</button> */}
+        </Link>
       </div>
     </div>
   );
